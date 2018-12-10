@@ -1,5 +1,5 @@
 package de.unitrier.st.fst18.list;
-
+// s4paneum
 /**
  * Doppelt verkettete Liste.
  */

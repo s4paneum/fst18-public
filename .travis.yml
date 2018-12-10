@@ -7,9 +7,9 @@ addons:
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-  mvn sonar:sonar
+  # - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+  - mvn sonar:sonar
   -Dsonar.projectKey=s4paneum_fst18-public
   -Dsonar.organization=s4paneum-github
-  -Dsonar.host.url=https://sonarcloud.io 
+  -Dsonar.host.url=https://sonarcloud.io
   -Dsonar.login=930545b58ac4910a4779c06e028d67171ea89e2f
